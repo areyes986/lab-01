@@ -1,0 +1,43 @@
+@media (max-width:800px) { 
+    
+body {
+    width: 480px;
+}
+
+header {
+    height: 75px;
+    border: solid 1px black;
+}
+
+section { 
+    border: solid 1px black;
+    width: 480px;
+}
+
+.section1 > div {
+    height: 125px;
+    border: solid 1px black;
+
+}
+
+.section1 > #divB {
+    height: 150px;
+}
+
+.section2 {
+    overflow: hidden;
+}
+
+.section2 > div {
+    float: left;
+    box-sizing: border-box;
+    height: 250px;
+    width: 240px;
+    border: solid 1px black;
+}
+
+footer {
+    height: 80px;
+    border: solid 1px black;
+}
+}
