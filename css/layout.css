@@ -51,10 +51,11 @@ footer {
     .section1 {
         overflow: hidden;
         box-sizing: border-box;
+        float: right;
     }
 
     .section1 > div {
-        float: left;
+        float: right;
         height: 200px;
         width: 380px;
         box-sizing: border-box;
@@ -70,23 +71,35 @@ footer {
 
     .section2 {
         width: 760px;
-        float: left;
+        float: right;
         overflow: hidden;
     }
 
     .section2 > div {
         width: 190px;
         height: 250px;
-        float: left;
+        float: right;
         box-sizing: border-box;
 
     }
 
     footer {
-        float: left;
+        float: right;
         height: 150px;
         width: 760px;
         box-sizing: border-box;
 
     }
+}
+
+
+
+
+
+
+
+
+
+
+
 }
