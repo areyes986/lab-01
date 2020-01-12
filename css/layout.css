@@ -4,18 +4,21 @@ body {
 
 header {
     height: 75px;
+    line-height: 75px;
     border: solid 1px black;
     box-sizing: border-box;
 }
 
 .section1 > div {
     height: 125px;
+    line-height: 125px;
     border: solid 1px black;
     box-sizing: border-box;
 }
 
 article {
     height: 150px;
+    line-height: 150px;
     border: solid 1px black;
     box-sizing: border-box;
 }
@@ -29,12 +32,14 @@ article {
     float: left;
     box-sizing: border-box;
     height: 250px;
+    line-height: 250px;
     width: 240px;
     border: solid 1px black;
 }
 
 footer {
     height: 80px;
+    line-height: 80px;
     border: solid 1px black;
     box-sizing: border-box;
 }
@@ -46,6 +51,8 @@ footer {
 
     header {
         height: 100px;
+        line-height: 100px;
+
     }
 
     .section1 {
@@ -56,6 +63,7 @@ footer {
     .section1 > div {
         float: left;
         height: 200px;
+        line-height: 200px;
         width: 380px;
         box-sizing: border-box;
 
@@ -64,6 +72,7 @@ footer {
     article {
         float: left;
         height: 600px;
+        line-height: 600px;
         width: 200px;
         box-sizing: border-box;
     }
@@ -77,6 +86,7 @@ footer {
     .section2 > div {
         width: 190px;
         height: 250px;
+        line-height: 250px;
         float: left;
         box-sizing: border-box;
 
@@ -85,6 +95,7 @@ footer {
     footer {
         float: left;
         height: 150px;
+        line-height: 150px;
         width: 760px;
         box-sizing: border-box;
 
