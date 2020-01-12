@@ -1,10 +1,75 @@
-header, article, section, footer {
+header {
     background-color: lightcyan;
 }
 
+article {
+    background-color: rgb(183, 233, 233);
+}
+
+.section1 > div:nth-child(1){
+    background-color: rgb(132, 204, 204);
+}
+
+.section1 > div:nth-child(2){
+    background-color: rgb(83, 168, 168);
+}
+
+.section2 > div:nth-child(1){
+    background-color: rgb(59, 134, 134);
+}
+
+.section2 > div:nth-child(2){
+    background-color: rgb(34, 117, 117);
+}
+
+.section2 > div:nth-child(3){
+    background-color: rgb(18, 71, 71);
+}
+
+.section2 > div:nth-child(4){
+    background-color: rgb(4, 41, 41);
+}
+
+footer {
+    color: white;
+    background-color: rgb(1, 27, 27);
+}
 
 @media (min-width: 768px){
-    header, article, section, footer {
-        background-color: rgb(184, 247, 186);
+    header {
+        background-color: rgb(218, 247, 219);
     }
+    
+    article {
+        background-color: rgb(178, 225, 179);
+    }
+    
+    .section1 > div:nth-child(1){
+        background-color: rgb(141, 205, 142);
+    }
+    
+    .section1 > div:nth-child(2){
+        background-color: rgb(111, 184, 112);
+    }
+    
+    .section2 > div:nth-child(1){
+        background-color: rgb(87, 165, 89);
+    }
+    
+    .section2 > div:nth-child(2){
+        background-color: rgb(53, 135, 55);
+    }
+    
+    .section2 > div:nth-child(3){
+        background-color: rgb(34, 109, 35);
+    }
+    
+    .section2 > div:nth-child(4){
+        background-color: rgb(13, 80, 15);
+    }
+    
+    footer {
+        color: white;
+        background-color: rgb(13, 80, 15);
+    
 }
